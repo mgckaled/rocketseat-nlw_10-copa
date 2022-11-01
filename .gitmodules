@@ -1,0 +1,3 @@
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/mgckaled/rocketseat-nlw_10-copa.git
