@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 -->
+
 # NLW Copa - 10° edição
 
 <p align="center">
