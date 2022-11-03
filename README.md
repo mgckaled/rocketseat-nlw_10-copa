@@ -28,6 +28,7 @@ Aplicação desenvolvida pela equipe da Rocketseat que registra apostas(bolões)
 - [Expo Go](https://expo.dev/client)
 - [Prisma](https://www.prisma.io/)
 - [Fastify](https://www.fastify.io/)
+- [Insomnia](https://insomnia.rest/)
 
 ---
 
@@ -42,6 +43,7 @@ Necessário realizar as instalações:
 - [Node](https://nodejs.org/)
 - [Expo](https://docs.expo.dev/)
 - [Expo Go](https://expo.dev/client)
+- [Insomnia](https://insomnia.rest/download)
 
 Necessário criar contas
 
@@ -82,6 +84,9 @@ npx prisma studio
 
 # Gerar ERD - Diagrama de Banco de Dados
 npx prisma generate
+
+# Gerar seed (exemplo) para Banco de Dados. Observar configurações do prisma no package.json
+npx prisma db seed
 ```
 
 ### `/web`
