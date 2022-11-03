@@ -1,40 +1,102 @@
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD041 -->
+
+<div align="center">
+   <img alt="NLW Copa" src=".github/assets/nlw-copa-logo.svg" width="40%"/>
+</div>
+<br>
+
+<div align="center">
+   <a href="https://github.com/mgckaled">
+      <img alt="Made by mgckaled" src="https://img.shields.io/badge/made%20by-mgckaled-yellow">
+   </a>
+   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/mgckaled/rocketseat-nlw_10-copa">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/mgckaled/rocketseat-nlw_10-copa">
+   <a href="https://github.com/mgckaled/rocketseat-nlw_10-copa/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mgckaled/rocketseat-nlw_10-copa">
+   </a>
+   <a href="https://github.com/mgckaled/rocketseat-nlw_10-copa/issues">
+      <img alt="GitHub Issues" src="https://img.shields.io/github/issues/mgckaled/rocketseat-nlw_10-copa">
+   </a>
+   <a href="https://github.com/mgckaled/rocketseat-nlw_10-copa/blob/main/LICENSE.md">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/mgckaled/rocketseat-nlw_10-copa">
+   </a>
+</div>
+
+<br>
 
 # NLW Copa - 10° edição
 
-<p align="center">
-<a href="#sobre-o-projeto">Sobre o Projeto</a> •
-<a href="#tecnologias">Tecnologias</a> •
-<a href="#configurações-necessárias">Configurações necessárias</a> •
-<a href="#licença">Licença</a> •
-<a href="#autor">Autor</a>
-</p>
+<div align="center">
 
-## Sobre o projeto
+[**Sobre o Projeto**](#sobre-o-projeto) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Tecnologias**](#tecnologias) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Layout**](#layout) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Configurações**](#configurações) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Como contribuir**](#como-contribuir) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Licença**](#licença)&nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Autor**](#autor)
 
-Aplicação desenvolvida pela equipe da Rocketseat que registra apostas(bolões) para os jogos Copa do Mundo de 2022.
+</div>
 
----
+## Sobre o Projeto
+
+<img src=".github/assets/web.png" alt="Landing page NLW Copa" />
+<br>
+<br>
+
+**_NLW Copa_** é o projeto desenvolvido durante a trilha Ignite da **Next Level Week**, um evento online produzido pela [**Rocketseat**](https://github.com/Rocketseat).
+
+O projeto consiste em uma aplicação com a temática da copa, que permitirá os usuários criarem seus próprios bolões da copa e compartilhá-los com seus amigos.
+
+<br>
 
 ## Tecnologias
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Node](https://nodejs.org/)
-- [Git](https://git-scm.com/)
-- [GitHub](https://github.com/)
-- [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [NextJS](https://nextjs.org/)
-- [Expo](https://expo.dev/)
-- [Expo Go](https://expo.dev/client)
-- [Prisma](https://www.prisma.io/)
-- [Fastify](https://www.fastify.io/)
-- [Insomnia](https://insomnia.rest/)
+<table>
+  <tbody>
+    <tr>
+      <td style="font-weight: bold">Back-end</td>
+      <td>
+        <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">NodeJs</a>,
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">Typescript</a>,
+        <a href="https://www.prisma.io/" target="_blank" rel="noopener noreferrer">Prisma</a>,
+        <a href="https://www.fastify.io/" target="_blank" rel="noopener noreferrer">Fastify</a>,
+        <a href="https://zod.dev/" target="_blank" rel="noopener noreferrer">Zod</a>,
+        <a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer">SQLite</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold">Front-end (web)</td>
+      <td>
+        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>,
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>,
+        <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">NextJS</a>,
+        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">TailwindCSS</a>,
+        <a href="https://axios-http.com/docs/intro" target="_blank" rel="noopener noreferrer">Axios</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold">Mobile</td>
+      <td>
+        <a href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer">React Native</a>,
+        <a href="https://expo.dev/" target="_blank" rel="noopener noreferrer">Expo</a>,
+        <a href="https://nativebase.io/" target="_blank" rel="noopener noreferrer">Native Base</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
----
+<br>
 
-## Configurações necessárias
+## Layout
+
+O layout das telas da aplicação **_NLW Copa_** foi desenvolvido pela equipe da **Rocketseat** através da ferramenta [**Figma**](https://www.figma.com).
+Você pode acessar o layout através deste link: [**NLW Copa**](https://www.figma.com/community/file/1169028343875283461).
+
+<br>
+
+## Configurações
 
 ### **Requisitos**
 
@@ -47,11 +109,9 @@ Necessário realizar as instalações:
 - [Expo Go](https://expo.dev/client)
 - [Insomnia](https://insomnia.rest/download)
 
-Necessário criar contas
+Criar conta e configurar os serviços externos:
 
 - [GitHub](https://github.com/)
-
-Criar conta e configurar os serviços externos:
 
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
@@ -114,12 +174,34 @@ $ npm install
 $ npx expo start
 ```
 
+<br>
+
+## Como contribuir
+
+- Faça um **_fork_** desse repositório;
+- Crie um **branch** para a sua feature: `git checkout -b minha-feature`;
+- Faça um **commit** com suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça um **push** para o seu branch: `git push origin minha-feature`;
+- Faça um **pull request** com sua feature;
+
+Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie uma _**issue**_ ou entre em contato comigo.
+
+<br>
+
 ## Licença
 
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
+<img alt="GitHub License" src="https://img.shields.io/github/license/mgckaled/rocketseat-nlw_10-copa">
 
----
+Distribuído sob a licença **_MIT_**. Veja [LICENSE](LICENSE) para mais informações.
+
+<br>
 
 ## Autor
 
 Feito por Marcel Kaled. Entre em contato!
+
+---
+
+<h5 align="center">
+  &copy;2022 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
+</h5>
