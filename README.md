@@ -18,9 +18,7 @@
    <a href="https://github.com/mgckaled/rocketseat-nlw_10-copa/issues">
       <img alt="GitHub Issues" src="https://img.shields.io/github/issues/mgckaled/rocketseat-nlw_10-copa">
    </a>
-   <a href="https://github.com/mgckaled/rocketseat-nlw_10-copa/blob/main/LICENSE.md">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/mgckaled/rocketseat-nlw_10-copa">
-   </a>
+  
 </div>
 
 <br>
@@ -205,8 +203,6 @@ Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie um
 <br>
 
 ## Licença
-
-<img alt="GitHub License" src="https://img.shields.io/github/license/mgckaled/rocketseat-nlw_10-copa">
 
 Distribuído sob a licença **_MIT_**. Veja [LICENSE](LICENSE) para mais informações.
 
