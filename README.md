@@ -67,51 +67,51 @@ $ cd rocketseat-nlw_10-copa
 
 ```bash
 # criar projeto /server
-npm init -y
+$ npm init -y
 
 # instalar dependências
-npm install
+$ npm install
 
 # criar arquivo tsconfig.json
-npx tsc --init
+$ npx tsc --init
 
 # setup prisma com flag SQLite - schema prisma file / .env
-npx prisma init --datasource-provider SQLite
+$ npx prisma init --datasource-provider SQLite
 
 # migration - mecanismo de versionamento de banco de dados (arquivos de instruções)
-npx prisma migrate dev
+$ npx prisma migrate dev
 
 # visualisar banco de dados - Prisma Studio
-npx prisma studio
+$ npx prisma studio
 
 # Gerar ERD - Diagrama de Banco de Dados
-npx prisma generate
+$ npx prisma generate
 
 # Gerar seed (exemplo) para Banco de Dados. Observar configurações do prisma no package.json
-npx prisma db seed
+$ npx prisma db seed
 ```
 
 ### `/web`
 
 ```bash
 # criar projeto /web
-npx create-next-app@latest --use-npm
+$ npx create-next-app@latest --use-npm
 
 ## instalar dependências
-npm install
+$ npm install
 ```
 
 ### `/mobile`
 
 ```bash
 # criar projeto /mobile
-npx create-expo-app mobile
+$ npx create-expo-app mobile
 
 ## instalar dependências
-npm install
+$ npm install
 
 # inicializar expo
-npx expo start
+$ npx expo start
 ```
 
 ## Licença
