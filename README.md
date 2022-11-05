@@ -126,6 +126,10 @@ Necessário realizar as instalações:
 Criar conta e configurar os serviços externos:
 
 - [GitHub](https://github.com/)
+- [Google Cloud](https://cloud.google.com/)
+- [Expo](https://expo.dev/)
+
+Clonar reposítório:
 
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
@@ -182,10 +186,19 @@ $ npm install
 $ npx create-expo-app mobile
 
 ## instalar dependências
-$ npm install
+$ npx expo install
 
 # inicializar expo
 $ npx expo start
+```
+
+```bash
+# após criar uma conta no Expo, faça login pelo terminal:
+$ npx expo login
+# confirme seu nome e senha
+
+# confirmar login. O terminal deverá mostrar o nome do usuário
+$ npx expo whoami
 ```
 
 <br>
